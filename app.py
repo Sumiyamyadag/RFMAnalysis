@@ -586,22 +586,32 @@ def main():
         recommendations = {
            
             "Loyal Customers": [
-                "tip 1",
-                "tip 2",
-                "tip 3",
-                "tip 4"
+                "tip 1 Give early access to sales
+",
+                "tip 2 Exclusive discounts and other personalized experiences to shop appreciation",
+                "tip 3 Upgrade them to a card with higher limit
+",
+                "tip 4  Consider brand deal (depending on influence)"
             ],
             "New Customers": [
-                 "tip 1",
-                "tip 2",
-                "tip 3",
-                "tip 4"
+                 "tip 1 Encourage a credit card application
+",
+                "tip 2 Offer a coupon for free shipping with the first online purchase
+",
+                "tip 3 Encourage application download by explaining the potential rewards program
+",
+                "tip 4 Register them for emails
+"
             ],
             "At Risk": [
-                "tip 1",
-                "tip 2",
-                "tip 3",
-                "tip 4"
+                "tip 1 Send surveys to identify qualms
+",
+                "tip 2 Incentivize them to come back with exclusive promotions
+",
+                "tip 3 Send promotional emails on your products, making them more desirable
+",
+                "tip 4 Follow up on the most recent purchases to inquire about product satisfaction
+"
             ],
             
         }
@@ -645,16 +655,41 @@ def main():
         
         # Create expandable sections for each category
         with st.expander("What is RFM Analysis?"):
-            st.markdown("*Fill in details about what RFM analysis is and how it works...*")
+            st.markdown(""
+        RFM stands for Recency, Frequency, and Monetary value.
+        - **Recency**: How recently a customer made a purchase
+        - **Frequency**: How often they purchase
+        - **Monetary**: How much they spend
+
+        This model helps identify high-value customers and those at risk of churning.
+        "")
         
         with st.expander("Benefits of RFM Segmentation"):
-            st.markdown("*Fill in details about the benefits of using RFM for customer segmentation...*")
+            st.markdown("""
+         - Targeted marketing campaigns based on customer behavior  
+        - Improved customer retention and loyalty  
+        - Better allocation of marketing budget  
+        - Clear identification of VIP vs. inactive customers
+        """)
         
         with st.expander("How to Interpret RFM Scores"):
-            st.markdown("*Fill in details about how to interpret the RFM scores and segments...*")
+            st.markdown("""
+        Each customer gets a score (1–4) in Recency, Frequency, and Monetary:
+        - Higher **Recency** score = more recent purchase  
+        - Higher **Frequency** score = more frequent purchases  
+        - Higher **Monetary** score = higher spending
+
+        You can combine these into segments like Loyal Customers, At Risk, or New.
+        """)
         
         with st.expander("How This Application Drives Business Success"):
-            st.markdown("*Fill in details about how this dashboard helps implement RFM analysis for business growth and success...*")
+            st.markdown("""
+        This dashboard helps businesses:
+        - Visually understand customer groups  
+        - Tailor marketing actions to each segment  
+        - Track improvements in customer behavior over time  
+        - Prioritize resources for maximum ROI
+        """)
     
 
 
